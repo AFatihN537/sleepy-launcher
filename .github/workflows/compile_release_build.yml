@@ -15,7 +15,7 @@ env:
 
 jobs:   
   build_and_upload:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     container:
       image: ubuntu:devel
